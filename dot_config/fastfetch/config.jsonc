@@ -1,0 +1,101 @@
+// Inspired by Catnap
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "small",
+    "width": 30,
+    "height": 15,
+    "padding": {
+      "top": 2,
+      "left": 4,
+      "right": 4,
+    },
+  },
+  "display": {
+    "separator": " ",
+    "size": {
+      "maxPrefix": "MB",
+      "ndigits": 0,
+    },
+  },
+  "modules": [
+    {
+      "key": "╭────────────╮",
+      "type": "custom",
+    },
+    {
+      "key": "│ {#31}  {#39}user    {#keys}│",
+      "type": "title",
+      "format": "{user-name}",
+      "outputColor": "red",
+    },
+    {
+      "key": "│ {#33}󰻀  {#39}hname   {#keys}│",
+      "type": "title",
+      "format": "{host-name}",
+      "outputColor": "yellow",
+    },
+    {
+      "key": "│ {#32} {#39} uptime  {#keys}│",
+      "type": "uptime",
+      "outputColor": "green",
+      "format": "{2}h {3}m",
+    },
+    {
+      "key": "│ {#36}{icon}  {#39}distro  {#keys}│",
+      "type": "os",
+      "outputColor": "cyan",
+      "format": "{3}",
+    },
+    {
+      "key": "│ {#35}󰌢  {#39}kernel  {#keys}│",
+      "type": "kernel",
+      "outputColor": "magenta",
+      "format": "{2}",
+    },
+    {
+      "key": "│ {#34}  {#39}shell   {#keys}│",
+      "type": "shell",
+      "outputColor": "blue",
+      "format": "{3}",
+    },
+    {
+      "key": "│ {#31}󰏖  {#39}pkgs    {#keys}│",
+      "type": "packages",
+      "outputColor": "red",
+      "format": "{1}",
+    },
+    {
+      "key": "│ {#33}󰉉  {#39}disk    {#keys}│",
+      "type": "disk",
+      "folders": "/",
+      "outputColor": "yellow",
+      "format": "{1} | {2}",
+    },
+    {
+      "key": "│ {#32}󰍛  {#39}memory  {#keys}│",
+      "type": "memory",
+      "outputColor": "green",
+      "format": "{1} | {2}",
+    },
+    {
+      "key": "│ {#36}󰝚  {#39}media   {#keys}│",
+      "type": "media",
+      "outputColor": "cyan",
+      "format": "{3} - {1}",
+    },
+    {
+      "key": "├────────────┤",
+      "type": "custom",
+    },
+    {
+      "key": "│ {#39}  colors  {#keys}│",
+      "type": "colors",
+      "symbol": "circle",
+    },
+    {
+      "key": "╰────────────╯",
+      "type": "custom",
+    },
+  ],
+}
