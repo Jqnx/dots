@@ -1,0 +1,16 @@
+[user]
+	email = jan.derpingguys@hotmail.com
+  name = Jan Van Look
+[init]
+  defaultBranch = main
+[core]
+  editor = nvim
+  hooksPath = /home/jan/.git/hooks
+[submodule]
+  recurse = true
+[credential]
+	credentialStore = gpg
+	helper = 
+	helper = /bin/git-credential-manager
+[credential "https://dev.azure.com"]
+	useHttpPath = true
