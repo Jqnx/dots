@@ -3,4 +3,5 @@
 .config/brave-flags.conf
 .config/spotify-flags.conf
 .config/kitty
+.wallpapers
 {{- end }}
