@@ -1,0 +1,6 @@
+{{- if ne .chezmoi.hostname "Nyx" }}
+.config/hypr
+.config/brave-flags.conf
+.config/spotify-flags.conf
+.config/kitty
+{{- end }}
