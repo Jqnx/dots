@@ -3,5 +3,6 @@
 .config/brave-flags.conf
 .config/spotify-flags.conf
 .config/kitty
+.config/hyprpanel
 .wallpapers
 {{- end }}
