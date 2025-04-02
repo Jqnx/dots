@@ -7,8 +7,8 @@
     "height": 15,
     "padding": {
       "top": 2,
-      "left": 4,
-      "right": 4,
+      "left": 6,
+      "right": 8,
     },
   },
   "display": {
@@ -36,22 +36,22 @@
       "outputColor": "yellow",
     },
     {
-      "key": "│ {#32} {#39} uptime  {#keys}│",
-      "type": "uptime",
-      "outputColor": "green",
-      "format": "{2}h {3}m",
-    },
-    {
-      "key": "│ {#36}{icon}  {#39}distro  {#keys}│",
+      "key": "│ {#32}{icon} {#39} distro  {#keys}│",
       "type": "os",
-      "outputColor": "cyan",
+      "outputColor": "green",
       "format": "{3}",
     },
     {
-      "key": "│ {#35}󰌢  {#39}kernel  {#keys}│",
+      "key": "│ {#36}󰌢  {#39}kernel  {#keys}│",
       "type": "kernel",
-      "outputColor": "magenta",
+      "outputColor": "cyan",
       "format": "{2}",
+    },
+    {
+      "key": "│ {#35}󰌢  {#39}wm      {#keys}│",
+      "type": "wm",
+      "outputColor": "magenta",
+      "format": "{1}",
     },
     {
       "key": "│ {#34}  {#39}shell   {#keys}│",
