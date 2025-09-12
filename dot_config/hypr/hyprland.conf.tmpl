@@ -1,12 +1,14 @@
 source = ~/.config/hypr/autostart.conf
 source = ~/.config/hypr/keybinds.conf
-source = ~/.config/hypr/monitors.conf
 source = ~/.config/hypr/animation.conf
 source = ~/.config/hypr/decoration.conf
+{{ if eq .chezmoi.hostname "Hephaestus" }}
+source = ~/.config/hypr/layouts/desktop.conf
+{{ else if eq .chezmoi.hostname "Nyx" }}
 source = ~/.config/hypr/layouts/laptop.conf
-source = ~/.config/hypr/env.conf
+{{ end}}
+#source = ~/.config/hypr/env.conf
 source = ~/.config/hypr/windowrule.conf
-source = ~/.config/hypr/input.conf
 
 # https://wiki.hyprland.org/Configuring/Variables/#misc
 misc {

@@ -13,13 +13,11 @@ case $(date +%H) in
   # wallpaper if you run this script during the first 8 hours of the
   # day
 
-  #swww-daemon && swww img ~/.wallpapers/sky2.jpg
-  swww img ~/.wallpapers/sky2.jpg
+  swww-daemon && swww img ~/.wallpapers/chi yu blue.jpg
   ;;
 08 | 09 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17) # Middle 8 hours of the day
   # Same as above, but for the middle 8 hours of the day
 
-  #swww-daemon && swww img ~/.wallpapers/field.jpg
-  swww img ~/.wallpapers/field.jpg
+  swww-daemon && swww img ~/.wallpapers/chi yu red.jpg
   ;;
 esac
