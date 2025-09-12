@@ -1,4 +1,4 @@
-set -gx TERM xterm-256color
+#set -gx TERM xterm-256color
 set -gx EDITOR nvim
 set -gx PAGER less
 
@@ -14,6 +14,9 @@ set -gx PAGER less
 
 # Rose Pine
 #fish_config theme save "Rosé Pine"
+
+# Kanagawa theme
+#fish_config theme save kanagawa
 
 #----------------------------------
 # Aliases
@@ -39,8 +42,8 @@ alias cl clear
 
 alias wallpaper "sh ~/.config/hypr/scripts/swww_init_according_to_time_of_day.sh"
 
-
 set fzf_directory_opts --bind "ctrl-o:execute($EDITOR {} &> /dev/tty)"
+fzf_configure_bindings --directory=\cf
 
 #----------------------------------
 # PATHS
@@ -55,8 +58,9 @@ fish_add_path /home/jan/.local/bin
 fish_add_path node_modules/.bin
 
 # Go
-set -g GOPATH $HOME/Projects/go
-fish_add_path $GOPATH/bin
+fish_add_path ~/go/bin
+
+fish_add_path ~/Documents/PROClient
 
 # bun
 set --export BUN_INSTALL "$HOME/.bun"
