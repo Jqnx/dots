@@ -1,0 +1,12 @@
+Flatseal	com.github.tchx84.Flatseal	2.3.1	stable	flathub	system
+Waifu Downloader	moe.nyarchlinux.waifudownloader		master	waifudownloader-origin	system
+Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-23.08.32	23.08	flathub	system
+Mesa	org.freedesktop.Platform.GL.default	25.0.7	23.08	flathub	system
+Mesa (Extra)	org.freedesktop.Platform.GL.default	25.0.7	23.08-extra	flathub	system
+Mesa	org.freedesktop.Platform.GL.default	25.2.2	24.08	flathub	system
+Mesa (Extra)	org.freedesktop.Platform.GL.default	25.2.2	24.08extra	flathub	system
+nvidia-575-64-03	org.freedesktop.Platform.GL.nvidia-575-64-03		1.4	flathub	system
+nvidia-580-82-09	org.freedesktop.Platform.GL.nvidia-580-82-09		1.4	flathub	system
+openh264	org.freedesktop.Platform.openh264	2.5.1	2.5.1	flathub	system
+GNOME Application Platform version 48	org.gnome.Platform		48	flathub	system
+adw-gtk3 GTK Theme	org.gtk.Gtk3theme.adw-gtk3	6.4	3.22	flathub	system
