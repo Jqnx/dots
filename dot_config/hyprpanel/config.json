@@ -381,7 +381,7 @@
   "theme.bar.buttons.borderSize": "0.1em",
   "theme.bar.buttons.workspaces.enableBorder": false,
   "theme.bar.menus.menu.dashboard.profile.size": "10em",
-  "bar.workspaces.show_numbered": true,
+  "bar.workspaces.show_numbered": false,
   "bar.workspaces.numbered_active_indicator": "highlight",
   "bar.workspaces.showAllActive": true,
   "theme.bar.buttons.workspaces.smartHighlight": true,
@@ -545,5 +545,7 @@
   "theme.notification.opacity": 100,
   "menus.dashboard.controls.enabled": true,
   "menus.dashboard.stats.enabled": false,
-  "theme.osd.border.color": "#2a2a37"
+  "theme.osd.border.color": "#2a2a37",
+  "bar.workspaces.monitorSpecific": true,
+  "bar.workspaces.applicationIconOncePerWorkspace": true
 }
