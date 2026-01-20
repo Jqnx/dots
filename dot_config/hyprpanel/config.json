@@ -3,7 +3,7 @@
   "theme.font.size": "1.0rem",
   "menus.transition": "crossfade",
   "tear": true,
-  "theme.bar.floating": true,
+  "theme.bar.floating": false,
   "menus.clock.weather.unit": "metric",
   "menus.clock.weather.location": "Antwerpen",
   "menus.clock.weather.key": "6648fe9a0f6f423ebed134738242610",
@@ -25,12 +25,12 @@
   "menus.dashboard.shortcuts.left.shortcut1.icon": "",
   "menus.dashboard.shortcuts.left.shortcut4.command": "rofi -show drun -replace -i -theme ~/.config/rofi/launchers/type-4/style-11.rasi",
   "theme.bar.transparent": false,
-  "theme.bar.opacity": 100,
+  "theme.bar.opacity": 70,
   "theme.bar.buttons.dashboard.enableBorder": false,
   "bar.workspaces.workspaces": 6,
   "bar.workspaces.show_icons": true,
-  "bar.clock.format": "%I:%M %p - %d/%m",
-  "menus.dashboard.powermenu.avatar.image": "/home/jan/.wallpapers/mimikyu.jpg",
+  "bar.clock.format": "%d %b. %H:%M",
+  "menus.dashboard.powermenu.avatar.image": "~/.face.icon",
   "menus.dashboard.directories.enabled": false,
   "menus.dashboard.shortcuts.enabled": true,
   "theme.bar.menus.monochrome": false,
@@ -104,9 +104,24 @@
       "Terminal"
     ],
     [
-      "brave",
+      "brave-browser",
       "",
       "Brave Browser"
+    ],
+    [
+      "org.prismlauncher.prismlauncher",
+      "󰍳",
+      "Prism Launcher"
+    ],
+    [
+      "org.gnome.evince",
+      "󰈙",
+      "Document Viewer"
+    ],
+    [
+      "gjs",
+      "",
+      "Hyprpanel Settings"
     ]
   ],
   "bar.customModules.updates.icon": "",
@@ -136,7 +151,7 @@
   "theme.bar.buttons.windowtitle.enableBorder": false,
   "bar.windowtitle.custom_title": true,
   "bar.windowtitle.class_name": false,
-  "theme.bar.margin_bottom": "0.2em",
+  "theme.bar.margin_bottom": "0em",
   "theme.bar.margin_sides": "1em",
   "theme.bar.margin_top": "0.3em",
   "theme.bar.buttons.volume.enableBorder": false,
@@ -167,7 +182,7 @@
   "menus.media.displayTime": false,
   "theme.bar.enableShadow": false,
   "theme.bar.buttons.opacity": 100,
-  "theme.bar.buttons.background_opacity": 100,
+  "theme.bar.buttons.background_opacity": 0,
   "theme.bar.buttons.background_hover_opacity": 35,
   "bar.network.truncation_size": 7,
   "bar.network.truncation": true,
@@ -396,8 +411,8 @@
   "theme.bar.buttons.notifications.total": "#dcd7ba",
   "theme.bar.buttons.notifications.icon": "#76946a",
   "theme.bar.buttons.notifications.background": "#1f1f28",
-  "theme.bar.buttons.clock.icon": "#938aa9",
-  "theme.bar.buttons.clock.text": "#938aa9",
+  "theme.bar.buttons.clock.icon": "#dcd7ba",
+  "theme.bar.buttons.clock.text": "#dcd7ba",
   "theme.bar.buttons.clock.background": "#1f1f28",
   "theme.bar.buttons.battery.icon": "#f6c177",
   "theme.bar.buttons.battery.text": "#f6c177",
@@ -449,7 +464,7 @@
   "theme.bar.menus.menu.notifications.scrollbar.color": "#dcd7ba",
   "theme.bar.menus.menu.notifications.pager.label": "#dcd7ba",
   "theme.bar.menus.menu.notifications.pager.background": "#1f1f28",
-  "theme.bar.buttons.clock.icon_background": "#938aa9",
+  "theme.bar.buttons.clock.icon_background": "#dcd7ba",
   "theme.bar.buttons.modules.ram.icon": "#f6c177",
   "theme.bar.buttons.modules.storage.icon_background": "#2a283e",
   "theme.bar.menus.popover.border": "#2a273f",
@@ -556,5 +571,7 @@
   "theme.bar.buttons.modules.cava.icon_background": "#2a283e",
   "theme.bar.buttons.modules.cava.icon": "#9ccfd8",
   "theme.bar.buttons.modules.cava.border": "#9ccfd8",
-  "theme.osd.border.color": "#2a2a37"
+  "theme.osd.border.color": "#2a2a37",
+  "menus.clock.time.military": true,
+  "theme.font.weight": 800
 }
