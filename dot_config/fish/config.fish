@@ -39,6 +39,7 @@ command -qv terraform && alias tf terraform
 
 alias cat bat
 alias cl clear
+alias ff fastfetch
 
 alias wallpaper "sh ~/.config/hypr/scripts/swww_init_according_to_time_of_day.sh"
 
@@ -81,6 +82,6 @@ starship init fish | source
 # pnpm
 set -gx PNPM_HOME "/home/jan/.local/share/pnpm"
 if not string match -q -- $PNPM_HOME $PATH
-  set -gx PATH "$PNPM_HOME" $PATH
+    set -gx PATH "$PNPM_HOME" $PATH
 end
 # pnpm end
