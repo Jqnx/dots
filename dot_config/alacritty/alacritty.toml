@@ -1,0 +1,23 @@
+[general]
+import = [
+    "~/.config/alacritty/themes/noctalia.toml"
+]
+live_config_reload = true
+ipc_socket = true
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+padding = { x = 10, y = 5}
+opacity = 0.96
+dynamic_title = true
+
+[font]
+size = 11.5
+normal = { family = "OverpassM Nerd Font", style = "Regular"}
+bold = { style = "Bold" }
+
+[cursor]
+style = { shape = "Underline", blinking = "Off"}
+thickness = 0.20
