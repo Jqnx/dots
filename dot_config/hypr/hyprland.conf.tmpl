@@ -7,13 +7,14 @@ source = ~/.config/hypr/layouts/desktop.conf
 {{ else if (or (eq .chezmoi.hostname "Nyx") (eq .chezmoi.hostname "Metis")) }}
 source = ~/.config/hypr/layouts/laptop.conf
 {{ end}}
-#source = ~/.config/hypr/env.conf
+source = ~/.config/hypr/env.conf
 source = ~/.config/hypr/windowrule.conf
+source = /home/jan/.config/hypr/noctalia/noctalia-colors.conf
 
 # https://wiki.hyprland.org/Configuring/Variables/#misc
 misc {
     force_default_wallpaper = -1 # Set to 0 or 1 to disable the anime mascot wallpapers
     disable_hyprland_logo = true # If true disables the random hyprland logo / anime girl background. :(
+    focus_on_activate = false
 }
 
-source = /home/jan/.config/hypr/noctalia/noctalia-colors.conf
