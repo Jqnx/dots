@@ -4,7 +4,7 @@ source = ~/.config/hypr/animation.conf
 source = ~/.config/hypr/decoration.conf
 {{ if eq .chezmoi.hostname "Hephaestus" }}
 source = ~/.config/hypr/layouts/desktop.conf
-{{ else if eq .chezmoi.hostname "Nyx" }}
+{{ else if (or (eq .chezmoi.hostname "Nyx") (eq .chezmoi.hostname "Metis")) }}
 source = ~/.config/hypr/layouts/laptop.conf
 {{ end}}
 #source = ~/.config/hypr/env.conf
@@ -16,4 +16,4 @@ misc {
     disable_hyprland_logo = true # If true disables the random hyprland logo / anime girl background. :(
 }
 
-
+source = /home/jan/.config/hypr/noctalia/noctalia-colors.conf
