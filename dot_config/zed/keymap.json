@@ -1,0 +1,79 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      // "shift shift": "file_finder::Toggle"
+    },
+  },
+  {
+    "context": "Editor && vim_mode == insert",
+    "bindings": {
+      // "j k": "vim::NormalBefore"
+    },
+  },
+  {
+    "context": "VimControl && !menu",
+    "bindings": {
+      "q": "vim::PreviousWordStart"
+    }
+  },
+  {
+    "context": "VimControl && !menu",
+    "unbind": {
+      "b": "vim::PreviousWordStart"
+    }
+  },
+  {
+    "context": "VimControl && !menu",
+    "bindings": {
+      "b": "vim::ToggleRecord"
+    }
+  },
+  {
+    "context": "VimControl && !menu",
+    "unbind": {
+      "q": "vim::ToggleRecord"
+    }
+  },
+  {
+    "context": "VimControl && !menu",
+    "bindings": {
+      "shift-b": "vim::ReplayLastRecording"
+    }
+  },
+  {
+    "context": "VimControl && !menu",
+    "unbind": {
+      "shift-q": "vim::ReplayLastRecording"
+    }
+  },
+  {
+    "context": "VimControl && !menu",
+    "bindings": {
+      "shift-q": [
+        "vim::PreviousWordStart",
+        {
+          "ignore_punctuation": true
+        }
+      ]
+    }
+  },
+  {
+    "context": "VimControl && !menu",
+    "unbind": {
+      "shift-b": [
+        "vim::PreviousWordStart",
+        {
+          "ignore_punctuation": true
+        }
+      ]
+    }
+  }
+]
